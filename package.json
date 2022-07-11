@@ -1,0 +1,18 @@
+{
+  "name": "blaze-bot",
+  "version": "1.0.0",
+  "description": "Blaze Crash bot.",
+  "main": "index.js",
+  "author": "Gabriel José Mouallem Rodrigues",
+  "scripts": {
+    "start": "npx nodemon ./index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "puppeteer": "^15.3.2",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.0"
+  }
+}
